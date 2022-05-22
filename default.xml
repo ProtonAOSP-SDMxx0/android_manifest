@@ -1107,4 +1107,5 @@
   <!-- ProtonAOSP changes -->
   <include name="snippets/obsolete.xml"/>
   <include name="snippets/proton.xml"/>
+  <include name="snippets/codelinaro.xml"/>
 </manifest>

@@ -14,7 +14,6 @@
 
   <!-- Prebuilts -->
   <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" />
-  <project name="nerdhannn/clang" path="prebuilts/clang/host/linux-x86/clang-wraith" remote="github" revision="master" />
   <project name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" remote="github" revision="master" />
   <project name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-eabi" path="prebuilts/gcc/linux-x86/arm/arm-eabi" remote="github" revision="master" />
   <project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="lineage" />

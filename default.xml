@@ -1104,8 +1104,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- ProtonAOSP changes -->
   <include name="snippets/obsolete.xml"/>
   <include name="snippets/proton.xml"/>
   <include name="snippets/codelinaro.xml"/>
+  <include name="snippets/others.xml"/>
 </manifest>

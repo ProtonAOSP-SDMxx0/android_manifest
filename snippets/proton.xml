@@ -97,7 +97,7 @@
   <project name="android_system_vold" path="system/vold" remote="proton-asus" groups="proton" />
   <project name="android_vendor_proton" path="vendor/proton" remote="proton-asus" groups="proton" />
   <project name="android_external_exfatprogs" path="external/exfatprogs" remote="proton-asus" groups="proton" />
-  <project name="android_kernel_build" path="device/qcom/kernelscripts" remote="proton-asus" groups="proton" >
+  <project name="ProtonAOSP-platina/android_kernel_build" path="device/qcom/kernelscripts" remote="github" groups="proton" >
     <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
   </project>
   <project name="android_vendor_support" path="vendor/support" remote="proton-asus" groups="proton" />

@@ -24,15 +24,5 @@
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang" path="vendor/qcom/sdclang" remote="github" revision="ruby-12" />
 
   <!-- Track modified repositories -->
-  <project name="android_vendor_qcom_opensource_thermal" path="vendor/qcom/opensource/thermal-hal" remote="proton-lavender" revision="sc" />
-  <project name="proton-vayu/android_vendor_qcom-opensource_cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" remote="github" revision="sc-v2" />
   <project name="proton-vayu/android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="sc-v2" />
-  <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="proton-lavender" revision="sc" />
-  <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="proton-lavender" revision="sc" />
-  <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="proton-lavender" revision="sc" />
-  <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/commonsys/telephony" remote="proton-lavender" revision="sc" />
-  <project name="android_external_tinyxml" path="external/tinyxml" remote="proton-lavender" groups="proton" />
-  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="proton-lavender" revision="sc" />
-  <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="proton-lavender" revision="sc" />
-  <project name="android_vendor_qcom_opensource_audio-hal_primary-hal" path="vendor/qcom/opensource/audio-hal/primary-hal" remote="proton-lavender" revision="sc" />
 </manifest>

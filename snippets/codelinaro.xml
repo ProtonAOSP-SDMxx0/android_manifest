@@ -9,6 +9,7 @@
   <project name="device/qcom/qssi_32go" path="device/qcom/qssi_32go" remote="clo_system" />
 
   <!-- CLO System -->
+  <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/commonsys/telephony" remote="clo_system" />
   <project name="platform/vendor/qcom-opensource/audio" path="vendor/qcom/opensource/commonsys/audio" remote="clo_system" />
   <project name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" remote="clo_system" >
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk" />
@@ -26,6 +27,9 @@
 
   <!-- CLO Vendor -->
   <project name="platform/system/qcom" path="vendor/qcom/opensource/softap" remote="clo_vendor" />
+  <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" remote="clo_vendor">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/dataservices_vendor_product.mk" src="dataservices_vendor_product.mk"/>
+  </project>
   <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm" remote="clo_vendor" />
   <project name="platform/vendor/qcom-opensource/fst-manager" path="vendor/qcom/opensource/fst-manager" remote="clo_vendor" />
   <project name="platform/vendor/qcom-opensource/healthd-ext" path="vendor/qcom/opensource/healthd-ext" remote="clo_vendor" />

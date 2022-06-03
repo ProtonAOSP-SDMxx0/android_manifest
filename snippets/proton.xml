@@ -14,13 +14,18 @@
   <remove-project name="platform/external/zlib" />
 
   <!-- Replace existing repositories -->
+  <remove-project name="platform/libcore" />
+  <project name="android_libcore" path="libcore" remote="proton" groups="proton" />
   <project name="android_device_common" path="device/common" remote="proton" groups="proton" />
+  <project name="android_art" path="art" remote="proton" groups="proton" />
   <remove-project name="platform/external/noto-fonts" />
   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
   <remove-project name="platform/external/roboto-fonts" />
   <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
   <remove-project name="platform/external/google-fonts/cutive-mono" />
   <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" groups="proton" />
+  <project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="proton" groups="proton" />
+  <project name="android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="proton" groups="proton" />
   <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="proton" groups="proton" />
   <remove-project name="platform/external/jemalloc_new" />
   <project name="android_external_jemalloc_new" path="external/jemalloc_new" remote="proton" groups="proton" />
@@ -64,11 +69,10 @@
   <project name="android_vendor_lawnicons" path="vendor/lawnicons" remote="proton" groups="proton" />
   <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" groups="proton" revision="main" />
   <project name="android_packages_apps_GmsCompat" path="packages/apps/GmsCompat" remote="proton" groups="proton" />
+  <project name="android_external_exfatprogs" path="external/exfatprogs" remote="proton" groups="proton" />
 
   <!-- ProtonAOSP-X01BDA repositories -->
   <project name="android_frameworks_base" path="frameworks/base" remote="proton-asus" groups="proton" />
-  <remove-project name="platform/libcore" />
-  <project name="android_libcore" path="libcore" remote="proton-asus" groups="proton" />
   <project name="android_build_make" path="build/make" remote="proton-asus" groups="proton">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -82,14 +86,11 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project name="android_art" path="art" remote="proton-asus" groups="proton" />
   <project name="android_system_core" path="system/core" remote="proton-asus" groups="proton" />
   <project name="android_system_sepolicy" path="system/sepolicy" remote="proton-asus" groups="proton" />
   <project name="android_packages_apps_GameSpace" path="packages/apps/GameSpace" remote="proton-asus" groups="proton" />
   <project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="proton-asus" groups="proton" />
-  <project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="proton-asus" groups="proton" />
   <project name="android_bionic" path="bionic" remote="proton-asus" groups="proton" />
-  <project name="android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="proton-asus" groups="proton" />
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="proton-asus" groups="proton" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="proton-asus" groups="proton" />
   <project name="android_frameworks_native" path="frameworks/native" remote="proton-asus" groups="proton" />
@@ -97,8 +98,7 @@
   <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="proton-asus" groups="proton" />
   <project name="android_system_vold" path="system/vold" remote="proton-asus" groups="proton" />
   <project name="android_vendor_proton" path="vendor/proton" remote="proton-asus" groups="proton" />
-  <project name="android_external_exfatprogs" path="external/exfatprogs" remote="proton-asus" groups="proton" />
-  <project name="ProtonAOSP-platina/android_kernel_build" path="device/qcom/kernelscripts" remote="github" groups="proton" >
+  <project name="ProtonAOSP-platina/android_kernel_build" path="device/qcom/kernelscripts" remote="github" revision="sc-v2" groups="proton" >
     <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
   </project>
   <project name="android_vendor_support" path="vendor/support" remote="proton-asus" groups="proton" />

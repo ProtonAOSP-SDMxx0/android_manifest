@@ -5,10 +5,10 @@
   <remote name="github-ssh" fetch="ssh://git@github.com" />
   <remote name="gitlab" fetch="https://gitlab.com" />
   <remote name="gitlab-ssh" fetch="ssh://git@gitlab.com" />
-  <remote name="proton" fetch="https://github.com/ProtonAOSP" revision="sc-v2" />
-  <remote name="proton-asus" fetch="https://github.com/ProtonAOSP-X01BDA" revision="sc-v2" />
-  <remote name="proton-ssh" fetch="ssh://git@github.com/ProtonAOSP" revision="sc-v2" />
-  <remote name="proton-ssh-asus" fetch="ssh://git@github.com/ProtonAOSP-X01BDA" revision="sc-v2" />
+  <remote name="proton" fetch="https://github.com/ProtonAOSP" revision="sc-qpr3" />
+  <remote name="proton-asus" fetch="https://github.com/ProtonAOSP-X01BDA" revision="sc-qpr3" />
+  <remote name="proton-ssh" fetch="ssh://git@github.com/ProtonAOSP" revision="sc-qpr3" />
+  <remote name="proton-ssh-asus" fetch="ssh://git@github.com/ProtonAOSP-X01BDA" revision="sc-qpr3" />
 
   <!-- Remove existing repositories -->
   <remove-project name="platform/external/zlib" />

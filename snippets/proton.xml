@@ -10,24 +10,16 @@
   <remote name="proton-ssh" fetch="ssh://git@github.com/ProtonAOSP" revision="sc-qpr3" />
   <remote name="proton-ssh-asus" fetch="ssh://git@github.com/ProtonAOSP-X01BDA" revision="sc-qpr3" />
 
-  <!-- Remove existing repositories -->
-  <remove-project name="platform/external/zlib" />
-
   <!-- Replace existing repositories -->
-  <remove-project name="platform/libcore" />
   <project name="android_libcore" path="libcore" remote="proton" groups="proton" />
   <project name="android_device_common" path="device/common" remote="proton" groups="proton" />
   <project name="android_art" path="art" remote="proton" groups="proton" />
-  <remove-project name="platform/external/noto-fonts" />
   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
-  <remove-project name="platform/external/roboto-fonts" />
   <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
-  <remove-project name="platform/external/google-fonts/cutive-mono" />
   <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" groups="proton" />
   <project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="proton" groups="proton" />
   <project name="android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="proton" groups="proton" />
   <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="proton" groups="proton" />
-  <remove-project name="platform/external/jemalloc_new" />
   <project name="android_external_jemalloc_new" path="external/jemalloc_new" remote="proton" groups="proton" />
   <project name="android_packages_modules_Permission" path="packages/modules/Permission" remote="proton" groups="proton" />
   <project name="android_packages_modules_Wifi" path="packages/modules/Wifi" remote="proton" groups="proton" />
@@ -37,11 +29,34 @@
   <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="proton" groups="proton" />
   <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="proton" groups="proton" />
   <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="proton" groups="proton" />
-  <remove-project name="platform/external/openssh" />
   <project name="android_external_openssh" path="external/openssh" remote="proton" groups="proton" />
   <project name="android_external_armnn" path="external/armnn" remote="proton" groups="proton" />
   <project name="android_external_android-nn-driver" path="external/android-nn-driver" remote="proton" groups="proton" />
   <project name="android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="proton" groups="proton" />
+  <project name="android_external_libjpeg-turbo" path="external/libjpeg-turbo" remote="proton" groups="proton" />
+  <project name="android_packages_modules_DnsResolver" path="packages/modules/DnsResolver" remote="proton" groups="proton" />
+  <project name="android_system_netd" path="system/netd" remote="proton" groups="proton" />
+  <project name="android_packages_modules_common" path="packages/modules/common" remote="proton" groups="proton" />
+  <project name="android_platform_testing" path="platform_testing" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures" path="external/rust/crates/futures" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-channel" path="external/rust/crates/futures-channel" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-core" path="external/rust/crates/futures-core" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-executor" path="external/rust/crates/futures-executor" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-io" path="external/rust/crates/futures-io" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-macro" path="external/rust/crates/futures-macro" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-sink" path="external/rust/crates/futures-sink" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-task" path="external/rust/crates/futures-task" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-util" path="external/rust/crates/futures-util" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_pin-utils" path="external/rust/crates/pin-utils" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_proc-macro-nested" path="external/rust/crates/proc-macro-nested" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_quiche" path="external/rust/crates/quiche" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_ring" path="external/rust/crates/ring" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_slab" path="external/rust/crates/slab" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_thiserror" path="external/rust/crates/thiserror" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_tokio" path="external/rust/crates/tokio" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_tokio-macros" path="external/rust/crates/tokio-macros" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_tokio-stream" path="external/rust/crates/tokio-stream" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_tokio-test" path="external/rust/crates/tokio-test" remote="proton" groups="proton" />
 
   <!-- Add new repositories -->
   <project name="android_packages_apps_ProtonWallpaperStub" path="packages/apps/ProtonWallpaperStub" remote="proton" groups="proton" />

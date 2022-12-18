@@ -5,6 +5,8 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/libcore" />
+  <remove-project name="platform/platform_testing" />
 
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
@@ -49,7 +51,33 @@
   <!-- External -->
   <remove-project name="platform/external/android-nn-driver" />
   <remove-project name="platform/external/armnn" />
+  <remove-project name="platform/external/google-fonts/cutive-mono" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/noto-fonts" />
+  <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/roboto-fonts" />
+  <remove-project name="platform/external/rust/crates/futures" />
+  <remove-project name="platform/external/rust/crates/futures-channel" />
+  <remove-project name="platform/external/rust/crates/futures-core" />
+  <remove-project name="platform/external/rust/crates/futures-executor" />
+  <remove-project name="platform/external/rust/crates/futures-io" />
+  <remove-project name="platform/external/rust/crates/futures-macro" />
+  <remove-project name="platform/external/rust/crates/futures-sink" />
+  <remove-project name="platform/external/rust/crates/futures-task" />
+  <remove-project name="platform/external/rust/crates/futures-util" />
+  <remove-project name="platform/external/rust/crates/pin-utils" />
+  <remove-project name="platform/external/rust/crates/proc-macro-nested" />
+  <remove-project name="platform/external/rust/crates/quiche" />
+  <remove-project name="platform/external/rust/crates/ring" />
+  <remove-project name="platform/external/rust/crates/slab" />
+  <remove-project name="platform/external/rust/crates/thiserror" />
+  <remove-project name="platform/external/rust/crates/tokio" />
+  <remove-project name="platform/external/rust/crates/tokio-macros" />
+  <remove-project name="platform/external/rust/crates/tokio-stream" />
+  <remove-project name="platform/external/rust/crates/tokio-test" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -116,7 +144,9 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/modules/common" />
   <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/modules/DnsResolver" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -131,6 +161,7 @@
   <!-- System -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/memory/lmkd" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
 </manifest>

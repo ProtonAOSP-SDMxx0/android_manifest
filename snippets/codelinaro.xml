@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="clo_system" fetch="https://git.codelinaro.org/clo/la" review="codelinaro.org" revision="refs/tags/LA.QSSI.12.0.r1-07600-qssi.0" />
-  <remote name="clo_vendor" fetch="https://git.codelinaro.org/clo/la" review="codelinaro.org" revision="refs/tags/LA.UM.9.14.r1-19600.01-LAHAINA.QSSI12.0" />
+  <remote name="clo_system" fetch="https://git.codelinaro.org/clo/la" review="codelinaro.org" revision="refs/tags/LA.QSSI.12.0.r1-07900.02-qssi.0" />
+  <remote name="clo_vendor" fetch="https://git.codelinaro.org/clo/la" review="codelinaro.org" revision="refs/tags/LA.UM.9.14.2.r1-01100-QCM6490.QSSI12.0" />
   
   <!-- QSSI -->
   <project name="device/qcom/qssi" path="device/qcom/qssi" remote="clo_system" />
@@ -20,13 +20,20 @@
     <linkfile dest="kernel/Android.mk" src="build/stop_scan.mk" />
     <linkfile dest="disregard/Android.mk" src="build/stop_scan.mk" />
   </project>
+  <project name="platform/vendor/qcom-opensource/cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" remote="clo_system" />
   <project name="platform/vendor/qcom-opensource/dataservices-commonsys" path="vendor/qcom/opensource/commonsys/dataservices" remote="clo_system" />
   <project name="platform/vendor/qcom-opensource/dpm-commonsys" path="vendor/qcom/opensource/commonsys/dpm" remote="clo_system" />
+  <project name="platform/vendor/qcom-opensource/fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="clo_system" />
+  <project name="platform/vendor/qcom-opensource/interfaces" path="vendor/qcom/opensource/interfaces" remote="clo_system" />
   <project name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" remote="clo_system" />
   <project name="platform/external/tinycompress" path="external/tinycompress" remote="clo_system" />
 
   <!-- CLO Vendor -->
+  <project name="platform/hardware/qcom/thermal" path="vendor/qcom/opensource/thermal-hal" remote="clo_vendor"/>
   <project name="platform/system/qcom" path="vendor/qcom/opensource/softap" remote="clo_vendor" />
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="clo_vendor">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
+  </project>
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" remote="clo_vendor">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/dataservices_vendor_product.mk" src="dataservices_vendor_product.mk"/>
   </project>

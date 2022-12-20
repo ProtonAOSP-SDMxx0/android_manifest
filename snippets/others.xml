@@ -6,11 +6,8 @@
   <remote name="proton-lavender" fetch="https://github.com/ProtonAOSP-lavender" revision="sc" />
 
   <!-- External -->
-  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="lineage" revision="lineage-19.0" />
+  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="lineage" />
   <project name="android_external_json-c" path="external/json-c" remote="lineage" />
-
-  <!-- Packages -->
-  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" />
 
   <!-- Prebuilts -->
   <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" />
@@ -21,7 +18,7 @@
 
   <!-- Vendor -->
   <project name="android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" remote="lineage" />
-  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang" path="vendor/qcom/sdclang" remote="github" revision="ruby-12" />
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang" path="vendor/qcom/sdclang" remote="github" revision="12" />
 
   <!-- Track modified repositories -->
   <project name="proton-vayu/android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="sc-v2" />

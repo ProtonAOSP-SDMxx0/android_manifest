@@ -6,7 +6,7 @@
   <remote name="proton-lavender" fetch="https://github.com/ProtonAOSP-lavender" revision="sc" />
 
   <!-- External -->
-  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="lineage" />
+  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="lineage" revision="lineage-19.0" />
   <project name="android_external_json-c" path="external/json-c" remote="lineage" />
 
   <!-- Prebuilts -->

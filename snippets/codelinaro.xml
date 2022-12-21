@@ -20,11 +20,8 @@
     <linkfile dest="kernel/Android.mk" src="build/stop_scan.mk" />
     <linkfile dest="disregard/Android.mk" src="build/stop_scan.mk" />
   </project>
-  <project name="platform/vendor/qcom-opensource/cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" remote="clo_system" />
   <project name="platform/vendor/qcom-opensource/dataservices-commonsys" path="vendor/qcom/opensource/commonsys/dataservices" remote="clo_system" />
   <project name="platform/vendor/qcom-opensource/dpm-commonsys" path="vendor/qcom/opensource/commonsys/dpm" remote="clo_system" />
-  <project name="platform/vendor/qcom-opensource/fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="clo_system" />
-  <project name="platform/vendor/qcom-opensource/interfaces" path="vendor/qcom/opensource/interfaces" remote="clo_system" />
   <project name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" remote="clo_system" />
   <project name="platform/external/tinycompress" path="external/tinycompress" remote="clo_system" />
 
